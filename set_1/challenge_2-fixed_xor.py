@@ -35,3 +35,9 @@ print('Original ciphertext: ' + ciphertext_hex)
 print('Provided XOR key: ' + xor_key_hex)
 print('Plaintext: ' + plaintext)
 print('Encoded plaintext: ' + plaintext_hex.decode())
+
+# Output:
+# Original ciphertext: 1c0111001f010100061a024b53535009181c
+# Provided XOR key: 686974207468652062756c6c277320657965
+# Plaintext: the kid don't play
+# Encoded plaintext: 746865206b696420646f6e277420706c6179
